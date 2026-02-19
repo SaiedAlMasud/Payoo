@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Payoo | Login</title>
+    <!-- Favicon -->
     <link rel="icon" href="assets/logo.png" type="image/x-icon">
+    <!-- Daysi UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">  
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
     <style>
         * {
             font-family: 'Outfit', sans-serif;
@@ -25,9 +30,9 @@
       <div class="card-body">
         <fieldset class="fieldset">
           <label class="label font-bold text-neutral mt-1">Mobile Number</label>
-          <input id="mobile-number" type="tel" maxlength="11" minlength="11" class="input border-none rounded-full bg-base-300 mt-1" placeholder="Mobile Number" />
+          <input value="1234567890" id="mobile-number" type="tel" maxlength="11" minlength="11" class="input border-none rounded-full bg-base-300 mt-1" placeholder="Mobile Number" />
           <label class="label font-bold text-neutral mt-1">Enter 4 digit pin</label>
-          <input id="password" type="password" maxlength="4" class="input border-none rounded-full bg-base-300 mt-1" placeholder="Password" />
+          <input value="1234" id="password" type="password" maxlength="4" class="input border-none rounded-full bg-base-300 mt-1" placeholder="Password" />
           <button id="login-btn" class="btn btn-primary mt-4 rounded-full border-none">Login</button>
         </fieldset>
       </div>
