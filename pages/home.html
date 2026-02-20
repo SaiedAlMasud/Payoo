@@ -72,7 +72,42 @@
                     </button>
             </div>
         </section>
-        <section class="w-11/12 mx-auto ">
+        <!-- Add Money Section -->
+        <section id="add-money-section" class="w-11/12 mx-auto ">
+            <h1 class="text-xl font-bold pb-2">Add Money</h1>
+            <div class="card bg-base-200 w-full mx-auto rounded-2xl">
+                <div class="card-body">
+                    <fieldset class="fieldset">
+                        <label class="label font-bold text-neutral ">Select A Bank</label>
+                        <select class="select border-none rounded-full w-full bg-base-300 mt-1">
+                            <option disabled selected>Select Bank</option>
+                            <option>City Bank</option>
+                            <option>Brac Bank</option>
+                            <option>UCB Bank</option>
+                            <option>Islami Bank</option>
+                            <option>Southeast Bank</option>
+                            <option>Jamuna Bank</option>
+                            <option>Meghna Bank</option>
+                            <option>Dutch Bangla bank</option>
+                        </select>
+
+                        <label class="label font-bold text-neutral ">Bank Account Number</label>
+                        <input id="add-money-number" type="text" maxlength="11" minlength="11" class="input border-none rounded-full w-full bg-base-300 mt-1" placeholder="Enter 11 Digit Number" />
+
+                        <label class="label font-bold text-neutral mt-1">Amount to Add</label>
+                        <input id="add-money-amount" type="text" class="input border-none rounded-full w-full bg-base-300 mt-1" placeholder="Amount" />
+                        
+                        <label class="label font-bold text-neutral mt-1">Pin Number</label>
+                        <input id="add-money-pin" type="password" maxlength="4" class="input border-none rounded-full w-full bg-base-300 mt-1" placeholder="Pin Number" />
+                        
+                        <button id="add-money-btn" class="btn btn-primary mt-4 rounded-full border-none">Add Money</button>
+                    
+                    </fieldset>
+                </div>
+            </div>
+        </section>
+        <!-- Cashout Section -->
+        <section id="cashout-section" class="w-11/12 mx-auto ">
             <h1 class="text-xl font-bold pb-2">Cashout</h1>
             <div class="card bg-base-200 w-full mx-auto rounded-2xl">
                 <div class="card-body">
